@@ -1,0 +1,114 @@
+.covid {
+    background: #211F54;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+    gap: 72px;
+    padding: 16px 20px;
+    padding-right: 50px;
+}
+
+.covid__left img {
+    width: 100%;
+}
+
+
+.covid__reight {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.covid__reight label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+}
+
+.covid__reight h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: left;
+}
+
+.covid__reight p {
+    max-width: 420px;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: left;
+}
+
+.covid__reight .hero__box .hero__phone__img {
+    background: white;
+}
+
+.covid__reight .hero__box .hero__contact label {
+    color: white;
+}
+
+.covid__reight .hero__box .hero__contact p {
+    color: white;
+}
+
+
+@media (max-width:1050px) {
+
+    .covid__reight h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .covid__reight .hero__box {
+        display: block;
+    }
+
+    .covid__reight .hero__box .hero__contact__card {
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width:900px) {
+    .covid__reight p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width:850px) {
+    .covid {
+        display: block;
+        padding: 80px 40px;
+    }
+
+    .covid__left {
+        margin-bottom: 25px;
+    }
+
+    .covid__reight .hero__box {
+        display: flex;
+    }
+
+
+}
+
+@media (max-width:550px) {
+
+    .covid__reight h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .covid__reight .hero__box {
+        display: block;
+    }
+}

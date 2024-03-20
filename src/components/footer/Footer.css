@@ -1,0 +1,122 @@
+.footer__top {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 100px 0 80px;
+}
+
+.footer__clearing,
+.footer__contact,
+.footer__estimate {
+    max-width: 300px;
+}
+
+.footer__clearing h3 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    text-align: left;
+    color: #211F54;
+}
+
+.footer__clearing h5,
+.footer__contact h5,
+.footer__estimate h5,
+.footer__hours h5 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #211F54;
+}
+
+.footer__clearing p,
+.footer__contact p,
+.footer__estimate p,
+.footer__hours p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: left;
+    color: #6E7191;
+}
+
+
+.footer__clearing p {
+    margin: 7px 0 33px;
+}
+
+.footer__contact__card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 30px;
+    padding: 0 25px;
+}
+
+.footer__hours div {
+    margin-top: 30px;
+}
+
+.footer__hours div p {
+    margin-top: 8px;
+}
+
+
+.footer__estimate div {
+    margin-top: 30px;
+}
+
+.footer__estimate label {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.01px;
+    text-align: left;
+    color: #0075FF;
+}
+
+.footer__estimate p {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+.footer__bottom {
+    border-top: 1px solid #EFF0F6;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__bottom div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__bottom p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: right;
+    color: #6E7191;
+}
+
+.footer__bottom div a {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: right;
+    color: #0075FF;
+    text-decoration: line-through;
+}

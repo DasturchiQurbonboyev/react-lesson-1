@@ -1,0 +1,80 @@
+.article__title {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article__title h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.98px;
+    text-align: left;
+    color: #211F54;
+}
+
+
+.article__box {
+    display: flex;
+    gap: 28px;
+}
+
+
+
+.article__card__img {
+    z-index: -1;
+    position: relative;
+}
+
+
+
+.article__card__child {
+    background: white;
+    z-index: 100;
+    margin: -60px 30px 0;
+    padding: 52px 49px;
+    border-radius: 24px;
+    border: 1px solid #EFF0F6
+}
+
+.article__card__child h5 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.01px;
+    text-align: left;
+    color: #211F54;
+}
+
+.article__card__child p {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30.01px;
+    text-align: left;
+    color: #6E7191;
+    margin-top: 17px;
+    margin-bottom: 4px;
+}
+
+.card__child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__child label {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #211F54;
+}
+
+.kvartat {
+    width: 50px;
+    height: 50px;
+    background: #0075FF;
+}
