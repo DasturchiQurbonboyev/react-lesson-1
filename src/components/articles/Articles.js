@@ -5,7 +5,7 @@ import personImg from '../../assets/images/article/persn.png';
 
 function Articles() {
     return (
-        <>
+        <div className='article'>
             <div className="article__title">
                 <h2>Articles & resources</h2>
                 <div>
@@ -42,7 +42,7 @@ function Articles() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

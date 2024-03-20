@@ -16,15 +16,24 @@
 
 
 .article__box {
+    margin-top: 50px;
     display: flex;
+    justify-content: center;
     gap: 28px;
 }
 
-
+.article__card {
+    max-width: 596px;
+    width: 100%;
+}
 
 .article__card__img {
     z-index: -1;
     position: relative;
+}
+
+.article__card__img img {
+    width: 100%;
 }
 
 
@@ -77,4 +86,108 @@
     width: 50px;
     height: 50px;
     background: #0075FF;
+}
+
+
+
+
+@media (max-width:1070px) {
+    .article__card__child {
+        padding: 30px;
+    }
+
+    .article__card__child h5 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .article__card__child p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .kvartat {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media (max-width:960px) {
+    .article__title {
+        display: grid;
+        justify-content: center;
+    }
+
+    .article__title div {
+        margin-top: 25px;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:780px) {
+    .article__box {
+        display: grid;
+    }
+
+    .article__card__child {
+        padding: 50px;
+    }
+
+    .article__card__child h5 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .article__card__child p {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+}
+
+@media (max-width:570px) {
+
+    .article__title h2 {
+        font-size: 35px;
+    }
+
+    .article__title .about__exp__btn {
+        margin-left: 10px;
+    }
+
+    .article__title button {
+        padding: 15px 18px;
+        font-size: 15px;
+    }
+
+    .article__card__child {
+        padding: 35px;
+    }
+
+    .article__card__child h5 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .article__card__child p {
+        font-size: 16px;
+        line-height: normal;
+    }
+}
+
+@media (max-width:450px) {
+    .article__card__child {
+        padding: 25px;
+    }
+
+    .article__card__child h5 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .article__card__child p {
+        font-size: 12px;
+        line-height: normal;
+    }
 }

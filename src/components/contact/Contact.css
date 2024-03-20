@@ -129,8 +129,9 @@
 }
 
 
-.contact__reight__btn {
-    max-width: 420px;
+.contact__reight__btn,
+.contact__textarea {
+    max-width: 720px;
     width: 100%;
     margin-top: 12px;
 }
@@ -140,3 +141,34 @@
 }
 
 /* ------------reight end------- */
+
+
+
+
+@media (max-width:1050px) {
+    .contact {
+        display: block;
+        padding: 100px 50px;
+    }
+
+    .contact__reight {
+        margin-top: 35px;
+    }
+
+}
+
+@media (max-width:670px) {
+    .contact__reight {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .contact__reight input {
+        width: 100%;
+    }
+
+    .contact__reight {
+        justify-content: start;
+    }
+}
